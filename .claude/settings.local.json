@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(cd:*)",
+      "Bash(timeout 5 node src/index.js)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(lsof -ti:3001)",
+      "Bash(xargs kill:*)",
+      "Bash(netstat -ano)",
+      "Bash(find 'D:/dli dashboard/server/node_modules/agent-twitter-client/node_modules/tough-cookie' -name *.d.ts)",
+      "WebFetch(domain:x.com)",
+      "Bash(node test-endpoints.js)",
+      "Bash(node test-endpoints2.js)",
+      "Bash(node test-endpoints3.js)",
+      "Bash(node test-endpoints4.js)",
+      "Bash(node test-find-bearer.js)",
+      "Bash(node test-via-curl.js)",
+      "Bash(npx playwright:*)",
+      "Bash(node src/setup-auth.js)",
+      "Bash(npm uninstall:*)"
+    ]
+  }
+}
